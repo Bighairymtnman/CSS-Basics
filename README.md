@@ -36,7 +36,7 @@ A comprehensive collection of CSS patterns, techniques, and best practices for m
 ## Practical Example
 
 ### MyBlog
-The [MyBlog](MyBlog/) folder contains a practical implementation showcasing CSS concepts from this guide. This example builds upon the HTML structure from our [HTML-Reference](https://github.com/Bighairymtnman/HTML-Reference) repository, demonstrating how CSS enhances basic HTML markup with:
+The [MyBlog](MyBlog/) folder contains a practical implementation showcasing CSS concepts from this guide. This example builds upon the HTML structure found in the HTMLElements.md file from our [HTML-Reference](https://github.com/Bighairymtnman/HTML-Reference) repository, demonstrating how CSS enhances basic HTML markup with:
 
 - Responsive navigation
 - Typography styling
@@ -48,12 +48,12 @@ This real-world example helps bridge the gap between reference documentation and
 
 ## Features
 
--  Modern CSS techniques and properties
--  Responsive design patterns
--  Design system guidelines
--  Performance optimization tips
--  Accessibility considerations
--  Practical examples and use cases
+- Modern CSS techniques and properties
+- Responsive design patterns
+- Design system guidelines
+- Performance optimization tips
+- Accessibility considerations
+- Practical examples and use cases
 
 ## Usage Examples
 
