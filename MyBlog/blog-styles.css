@@ -1,0 +1,172 @@
+/* CSS Variables - Custom properties for consistent theming
+   These can be modified to quickly change the entire color scheme */
+:root {
+    --primary-color: #2563eb;    /* Main brand color */
+    --text-color: #333;          /* Standard text color */
+    --bg-color: #fff;            /* Background color */
+    --accent-color: #3b82f6;     /* Secondary brand color */
+    --light-gray: #f3f4f6;       /* Light background for sections */
+    --spacing: 2rem;             /* Standard spacing unit */
+}
+
+/* Base Styles - Foundation styling for the document
+   Sets up the basic typography and spacing */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    background: var(--bg-color);
+}
+
+/* Header & Navigation Styles
+   Creates a clean, horizontal navigation bar with hover effects */
+header {
+    background: var(--light-gray);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;                /* Uses flexbox for horizontal alignment */
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;    /* Smooth hover transition */
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+/* Main Content Layout
+   Centers content and sets maximum width for readability */
+main {
+    max-width: 800px;            /* Limits line length for better reading */
+    margin: 0 auto;              /* Centers content horizontally */
+    padding: var(--spacing);
+}
+
+/* Typography Styles
+   Establishes hierarchy with different heading sizes */
+h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: var(--spacing);
+}
+
+/* Image Handling
+   Makes images responsive and adds styling to captions */
+figure {
+    margin: var(--spacing) 0;
+}
+
+img {
+    max-width: 100%;             /* Makes images responsive */
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* List Styling
+   Adds proper spacing between list items */
+ul {
+    padding-left: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Form Elements
+   Creates a clean, modern form layout with proper spacing */
+form {
+    background: var(--light-gray);
+    padding: var(--spacing);
+    border-radius: 8px;
+    margin-top: var(--spacing);
+}
+
+label {
+    display: block;              /* Places labels above inputs */
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;                 /* Full-width form elements */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 100px;           /* Ensures adequate space for comments */
+}
+
+button {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: var(--accent-color);
+}
+
+/* Footer Styling
+   Creates a distinct footer section */
+footer {
+    text-align: center;
+    padding: var(--spacing);
+    background: var(--light-gray);
+    margin-top: var(--spacing);
+}
+
+/* Responsive Design
+   Adjusts layout and typography for mobile devices */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;           /* Reduces padding on mobile */
+    }
+
+    h1 {
+        font-size: 2rem;         /* Smaller heading on mobile */
+    }
+
+    nav ul {
+        flex-direction: column;   /* Stacks nav items on mobile */
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.25rem 0;
+    }
+}
