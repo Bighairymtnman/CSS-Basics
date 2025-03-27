@@ -33,6 +33,19 @@ A comprehensive collection of CSS patterns, techniques, and best practices for m
    - Combine techniques from multiple guides
    - Create custom design systems
 
+## Practical Example
+
+### MyBlog
+The [MyBlog](MyBlog/) folder contains a practical implementation showcasing CSS concepts from this guide. This example builds upon the HTML structure from our [HTML-Reference](https://github.com/Bighairymtnman/HTML-Reference) repository, demonstrating how CSS enhances basic HTML markup with:
+
+- Responsive navigation
+- Typography styling
+- Form design
+- Layout structure
+- Color implementation
+
+This real-world example helps bridge the gap between reference documentation and practical application.
+
 ## Features
 
 -  Modern CSS techniques and properties
@@ -77,3 +90,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
