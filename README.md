@@ -44,8 +44,6 @@ The [MyBlog](MyBlog/) folder contains a practical implementation showcasing CSS 
 - Layout structure
 - Color implementation
 
-This real-world example helps bridge the gap between reference documentation and practical application.
-
 ## Features
 
 - Modern CSS techniques and properties
